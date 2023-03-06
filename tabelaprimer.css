@@ -1,0 +1,43 @@
+#kalendar {
+    border: 4px solid darkblue;
+    border-collapse: collapse;
+}
+#kalendar thead tr th {
+    font-size: 20pt;
+    background-color: #55a;
+    color: white;
+}
+ #kalendar tbody tr td {
+    border: 1px dashed #55a;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+
+    text-align: right;
+    vertical-align: top;
+ }
+ 
+
+ #kalendar tbody tr:nth-child(odd) td {
+    background-color: rgb(245, 231, 231);
+ }
+
+ #kalendar tbody tr td:last-child {
+    background-color:rgb(226, 42, 42) ;
+ }
+ #kalendar tbody tr td:nth-child(6) {
+    background-color: rgb(184, 184, 184);
+ }
+
+ #dugme {
+   
+   border: 2px solid black;
+   margin-top: 20px;
+ 
+
+ }
+
+ label {
+   background-color: rgb(59, 14, 219);
+   color: white;
+ }
